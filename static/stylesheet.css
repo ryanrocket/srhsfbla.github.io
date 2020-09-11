@@ -50,3 +50,9 @@ html, body {
     min-width: 20px;
     max-width: 5%;
 }
+
+nav {
+    margin: 0 0!important;
+    /* fix white margin around navbar */
+}
+nav + div { margin-top: 15px!important; }
